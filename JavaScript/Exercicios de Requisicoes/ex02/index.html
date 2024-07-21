@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+
+    <style>
+        body{display: flex;flex-direction: column;justify-content: center;align-items: center;height: 100vh;}
+        form{display: flex;flex-direction: column;width: 400px;}
+    </style>
+</head>
+<body>
+    <form>
+        <label for="regioes">Regiões</label>
+        <select id="regioes" onchange="buscarEstados()"></select>
+        
+        <label for="estados">Estados</label>
+        <select id="estados" onchange="buscarCidades()"></select>
+
+        <label for="cidades">Cidades</label>
+        <select id="cidades"></select>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
