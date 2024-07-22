@@ -11,9 +11,9 @@ const AppRoutes = () => {
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<PageLayout />}>
-                        <Route index element={<Home />} />
-                        <Route path="/produtos" element={<Produtos />} />
-                        <Route path="/produto/:id/:nome" element={<Produto />} />
+                        <Route index element={<Home />}/>
+                        <Route path="/produtos" element={<Produtos />}/>
+                        <Route path="/produto/:id/:nome" element={<Produto />}/>
                     </Route>
                     <Route path="*" element={<NotFound />} />
                 </Routes>
