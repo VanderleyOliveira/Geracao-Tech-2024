@@ -6,7 +6,6 @@ function User() {
     return (
         <div>
             <h1>Usuário {id}</h1>
-            {/* Exibir informações do usuário com base no ID */}
         </div>
     );
 }
