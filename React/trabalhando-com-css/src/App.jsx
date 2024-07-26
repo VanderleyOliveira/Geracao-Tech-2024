@@ -1,12 +1,18 @@
-import React from 'react';
-import './index.css';
+import "primereact/resources/themes/lara-light-blue/theme.css";
+import "primeicons/primeicons.css";
+import "primeflex/primeflex.css";
+import Paths from "./routes/Paths";
+
+
 
 const App = () => {
-  return (
-    <header>
-      <h1>Meu Site</h1>
-    </header>
-  );
-};
 
+
+  return ( 
+    <>
+      <Paths />
+    </>
+   );
+}
+ 
 export default App;
